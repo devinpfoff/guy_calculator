@@ -2,7 +2,7 @@
 //
 
 const init = function() {
-  document.getElementById("form-calc").addEventListener("submit", calculate);
+  document.getElementById("form-calc").addEventListener("change", calculate);
 };
 
 const calculate = function(e) {
@@ -69,3 +69,4 @@ const calculate = function(e) {
 };
 
 document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", calculate);
