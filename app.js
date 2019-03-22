@@ -62,7 +62,7 @@ const calculate = function(e) {
     <p id="guy_count">Calculated Guys: <b>${guyCount}</b></p>
     <p id="anchor_count">Calculated Anchors: <b>${anchorCount}</b></p>
     <p id="guy_required">Guys Required: <b>${guyRequired}</b></p>
-    <p id="anchor_required">Anchors required: <b>${anchorRequired}</b></p>
+    <p id="anchor_required">Anchors Required: <b>${anchorRequired}</b></p>
   `;
 };
 
