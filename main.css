@@ -26,7 +26,7 @@ h5{
 form, .results{
   padding: 10px;
   background: #f9feff;
-  color: #485e74;
+  color: #26313d;
 }
 form p, .results p{
   display: flex;
@@ -36,6 +36,9 @@ form p, .results p{
   font-size: 14px;
 }
 input{
+  background-color: white;
+  color: #26313d;
+  font-weight: bold;
   margin: 0px;
   padding: 0px;
   width: 75px;
@@ -48,12 +51,13 @@ input[type="number"] {
 }
 select{
   background: white;
+  color: #26313d;
+  font-weight: bold;
   text-align: left;
   width: 75px;
   padding: 5px 0px;
   border: 1px solid #26313d;
   border-radius: 3px;
-  cursor: pointer;
 }
 label{
   padding-top: 7px;

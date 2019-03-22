@@ -1,5 +1,3 @@
-// forms.js
-//
 
 const init = function() {
   document.getElementById("form-calc").addEventListener("change", calculate);
@@ -58,13 +56,13 @@ const calculate = function(e) {
   const result_set = document.getElementById("result_set");
 
   result_set.innerHTML = `
-    <p id="horizontal_pull">Horizontal Pull: ${horizontalPull}</p>
-    <p id="guy_factor">Guy Factor: ${guyFactor}</p>
-    <p id="hypotenuse">Hypotenuse: ${hypotenuse}</p>
-    <p id="guy_count">Calculated Guys: ${guyCount}</p>
-    <p id="anchor_count">Calculated Anchors: ${anchorCount}</p>
-    <p id="guy_required">Guys Required: ${guyRequired}</p>
-    <p id="anchor_required">Anchors required: ${anchorRequired}</p>
+    <p id="horizontal_pull">Horizontal Pull: <b>${horizontalPull}</b></p>
+    <p id="guy_factor">Guy Factor: <b>${guyFactor}</b></p>
+    <p id="hypotenuse">Hypotenuse: <b>${hypotenuse}</b></p>
+    <p id="guy_count">Calculated Guys: <b>${guyCount}</b></p>
+    <p id="anchor_count">Calculated Anchors: <b>${anchorCount}</b></p>
+    <p id="guy_required">Guys Required: <b>${guyRequired}</b></p>
+    <p id="anchor_required">Anchors required: <b>${anchorRequired}</b></p>
   `;
 };
 
