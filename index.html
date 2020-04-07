@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Guy & Anchor Calculations</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Guy & Anchor Calculations</h3>
+      </div>
+      <form id="form-calc">
+        <p>
+          <label for="guy_type">Guying Type</label>
+          <select id="guy_type">
+            <option value="dead_end" selected>Dead End</option>
+            <option value="line_angle">Line Angle</option>
+          </select>
+        </p>
+        <hr />
+        <p>
+          <label for="primary">Primary</label>
+          <select id="primary">
+            <option value="acsr2">2 ACSR</option>
+            <option value="acsr1_0">1/0 ACSR</option>
+            <option value="acsr3_0" selected>3/0 ACSR</option>
+            <option value="acsr336">336.4 ACSR</option>
+          </select>
+        </p>
+        <p>
+          <label for="neutral">Neutral</label>
+          <select id="neutral">
+            <option value="acsr2">2 ACSR</option>
+            <option value="acsr1_0" selected>1/0 ACSR</option>
+            <option value="acsr3_0">3/0 ACSR</option>
+            <option value="acsr336">336.4 ACSR</option>
+          </select>
+        </p>
+        <hr />
+        <p>
+          <label for="pole_top">Pole Assembly</label>
+          <select id="pole_top"> </select>
+        </p>
+        <p>
+          <label for="pole_type">Pole Type</label>
+          <select id="pole_type">
+            <option value="35_5">35-5</option>
+            <option value="40_4" selected>40-4</option>
+            <option value="45_2">45-2</option>
+            <option value="45_3">45-3</option>
+            <option value="50_2">50-2</option>
+            <option value="50_3">50-3</option>
+            <option value="55_3">55-3</option>
+            <option value="60_2">60-2</option>
+          </select>
+        </p>
+        <p>
+          <label for="attach_ht">Avg. Attach Height</label>
+          <input
+            type="number"
+            value="32.5"
+            step="0.25"
+            id="attach_ht"
+            required
+          />
+        </p>
+        <p>
+          <label for="guy_lead">Avg. Guy Lead</label>
+          <input type="number" value="15" step="0.25" id="guy_lead" required />
+        </p>
+        <p class="input_toggle">
+          <label for="backspan">Backspan</label>
+          <input type="number" value="250" id="backspan" required />
+        </p>
+        <p class="input_toggle">
+          <label for="headspan">Headspan</label>
+          <input type="number" value="250" id="headspan" required />
+        </p>
+        <p class="input_toggle">
+          <label for="line_angle">Line Angle (deg.)</label>
+          <input type="number" value="1" min="1" id="line_angle" required />
+        </p>
+      </form>
+      <div class="results">
+        <h5>Results</h5>
+        <hr />
+        <div id="result_set"></div>
+      </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>

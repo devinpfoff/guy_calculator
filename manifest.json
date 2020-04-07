@@ -1,0 +1,16 @@
+{
+  "name": "Guy Calculator",
+  "short_name": "Guy Calc",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#26313d",
+  "theme_color": "#26313d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicons/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ]
+}
