@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #26313d;
+  color: #f9feff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  margin: 0px 0px 15px 0px;
+}
+h5 {
+  margin: 5px 0px;
+}
+.container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+.header {
+  text-align: center;
+}
+form,
+.results {
+  padding: 10px;
+  background: #f9feff;
+  color: #26313d;
+}
+form p,
+.results p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  font-size: 14px;
+}
+input {
+  background-color: white;
+  color: #26313d;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+}
+input[type='number'] {
+  text-indent: 5px;
+  height: 30px;
+  border: 1px solid #26313d;
+  border-radius: 3px;
+}
+select {
+  -webkit-appearance: none;
+  background: white url(../images/chevron-down-solid.svg) no-repeat 95% center;
+  text-indent: 5px;
+  color: #26313d;
+  font-weight: bold;
+  text-align: left;
+  width: 100px;
+  padding: 5px 0px;
+  border: 1px solid #26313d;
+  border-radius: 3px;
+}
+label {
+  padding-top: 7px;
+}
+.results {
+  margin: 10px 0px;
+}
+.btn-block {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #26313d;
+  color: #f9feff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+}
+.required {
+  font-weight: bold;
+  color: green;
+}
