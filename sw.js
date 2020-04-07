@@ -6,7 +6,8 @@ const staticCacheName = 'site-static-v1',
     'js/app.js',
     'js/config.js',
     'css/main.css',
-    'favicons/apple-touch-icon.png'
+    'favicons/apple-touch-icon.png',
+    'images/chevron-down-solid.svg'
   ];
 self.addEventListener('install', e => {
   //console.log('service worker has been installed');
