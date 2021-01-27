@@ -1,1 +1,0 @@
-# guy_calculator_2
